@@ -1,0 +1,124 @@
+[
+  {
+    "model": "api.Menu",
+    "pk": 1,
+    "fields": {
+      "name": "Menu stałe",
+      "description": "Menu dostępne przez cały rok",
+      "addition_date": "2022-02-19",
+      "update_date": "2022-02-20"
+    }
+  },
+
+  {
+    "model": "api.Menu",
+    "pk": 2,
+    "fields": {
+      "name": "Menu sezonowe",
+      "description": "Menu dostępne tylko w sezonie letnim",
+      "addition_date": "2022-02-20",
+      "update_date": "2022-02-21"
+    }
+  },
+
+  {
+    "model": "api.Menu",
+    "pk": 3,
+    "fields": {
+      "name": "Menu lunchowe",
+      "description": "Menu dostępne tylko w godzinach 12-14",
+      "addition_date": "2022-02-20",
+      "update_date": "2022-02-20"
+    }
+  },
+
+  {
+    "model": "api.Dish",
+    "pk": 1,
+    "fields": {
+      "name": "Gołąbki",
+      "menu": 1,
+      "description": "Półmięsny farsz zawinięty w liście kapusty",
+      "price": 15.00,
+      "preparation_time": "00:15:00",
+      "vegetarian": false,
+      "addition_date": "2022-02-19",
+      "update_date": "2022-02-20"
+    }
+  },
+
+  {
+    "model": "api.Dish",
+    "pk": 2,
+    "fields": {
+      "name": "Kotlety mielone",
+      "menu": 1,
+      "description": "Mielone kotlety z indyka podawane z ziemniakami",
+      "price": 22.00,
+      "preparation_time": "00:25:00",
+      "vegetarian": false,
+      "addition_date": "2022-02-19",
+      "update_date": "2022-02-20"
+    }
+  },
+
+  {
+    "model": "api.Dish",
+    "pk": 3,
+    "fields": {
+      "name": "Pierogi ruskie",
+      "menu": 1,
+      "description": "Pierogi wypełnione farszem z twarogu i ugotowanych ziemniaków",
+      "price": 17.00,
+      "preparation_time": "00:18:00",
+      "vegetarian": true,
+      "addition_date": "2022-02-19",
+      "update_date": "2022-02-20"
+    }
+  },
+
+  {
+    "model": "api.Dish",
+    "pk": 4,
+    "fields": {
+      "name": "Pierogi z jagodami",
+      "menu": 2,
+      "description": "Pierogi wypełnione nadzieniem ze świeżych jagód",
+      "price": 20.00,
+      "preparation_time": "00:18:00",
+      "vegetarian": true,
+      "addition_date": "2022-02-20",
+      "update_date": "2022-02-21"
+    }
+  },
+
+   {
+    "model": "api.Dish",
+    "pk": 5,
+    "fields": {
+      "name": "Pstrąg",
+      "menu": 2,
+      "description": "Świeży pstrąg podawany z frytkami",
+      "price": 30.00,
+      "preparation_time": "00:30:00",
+      "vegetarian": false,
+      "addition_date": "2022-02-20",
+      "update_date": "2022-02-21"
+    }
+  },
+
+  {
+    "model": "api.Dish",
+    "pk": 6,
+    "fields": {
+      "name": "Zupa cebulowa",
+      "menu": 3,
+      "description": "Wywar warzywny z dodatkiem smażonej cebuli",
+      "price": 10.00,
+      "preparation_time": "00:10:00",
+      "vegetarian": true,
+      "addition_date": "2022-02-20",
+      "update_date": "2022-02-22"
+    }
+  }
+]

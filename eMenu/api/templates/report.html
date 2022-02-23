@@ -1,0 +1,20 @@
+<h>Nowe/zmodyfikowane dania</h>
+
+<table>
+     <tr>
+        <th>Nazwa</th>
+        <th>Opis</th>
+        <th>Cena</th>
+        <th>Czas przygotowania</th>
+        <th>Czy wegeteriańskie</th>
+    </tr>
+{% for dish in dishes %}
+    <tr>
+        <th>{{ dish.name }}</th>
+        <th>{{ dish.description }}</th>
+        <th>{{ dish.price }}</th>
+        <th>{{ dish.preparation_time }}</th>
+        <th>{{ dish.vegetarian }}</th>
+    </tr>
+{% endfor %}
+</table>
