@@ -12,7 +12,7 @@ Zadanie zostało przygotowane do uruchemiania za pomocą [Dockera](www.docker.co
 		```docker-compose exec web python manage.py loaddata init_data```
 4. Stworzenie superusera
 		```docker-compose exec web python manage.py createsuperuser```
-5. Aplikacja powinna działać na: [htttp://localhost:1337](htttp://localhost:1337).
+5. Aplikacja powinna działać na: [http://localhost:1337](http://localhost:1337).
 	Swagger: [http://localhost:1337/api/schema/swagger-ui/](http://localhost:1337/api/schema/swagger-ui/).
 
 ## Testowanie:
