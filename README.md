@@ -2,7 +2,7 @@
 # eMenu
 Cloud Services - Zadanie rekrutacyjne
 
-Zadanie zostało przygotowane do uruchemiania za pomocą [Dockera](www.docker.com).
+Zadanie zostało przygotowane do uruchemiania za pomocą [Dockera](https://www.docker.com/).
 
 ## Instrukcja uruchomienia:
 1.  Zaktualizowanie zmiennym środowiskowych w pliku `.env`
